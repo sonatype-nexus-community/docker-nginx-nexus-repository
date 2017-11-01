@@ -15,6 +15,12 @@ To create and run the Nginx proxy, Nexus Repository Manager and DockerHub proxy,
 ./nexus.sh
 ```
 
+Subsequent runs can use docker-compose:
+
+```
+docker-compose up -d
+```
+
 To stop, use docker-compose:
 
 ```
